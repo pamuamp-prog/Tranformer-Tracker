@@ -1,0 +1,6 @@
+{
+  "name": "Transformer Inspection Tracker",
+  "description": "ระบบรายงานผลการตรวจสอบหม้อแปลงไฟฟ้า ดีไซน์มินิมอล สีสันสดใส พร้อมเก็บข้อมูลในเครื่องแบบออฟไลน์ ⚡📍",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

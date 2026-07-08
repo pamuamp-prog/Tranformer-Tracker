@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Mitr:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fredoka", "Mitr", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom animations and cute custom styles */
+@layer base {
+  body {
+    background-color: #f7fafc;
+    color: #1a202c;
+  }
+}
+
+/* Rainbow border accent for cute cards */
+.rainbow-border {
+  background: linear-gradient(90deg, #ff9aa2, #ffb7b2, #ffdac1, #e2f0cb, #b5ead7, #c7ceea);
+  background-size: 400% 400%;
+  animation: rainbow-flow 8s ease infinite;
+}
+
+@keyframes rainbow-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
